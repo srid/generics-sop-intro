@@ -4,9 +4,7 @@ author: Sridhar Ratnakumar
 slug: generics-sop-intro
 ---
 
-:::{.page-note}
-A PDF version of this article can be accessed [[generics-sop-intro.pdf|here]].
-:::
+# A concise introduction to generics-sop
 
 A fascinating aspect of Lisp-based programming languages is that [code is data and data is code](https://en.wikipedia.org/wiki/Code_as_data). This property, called [homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity), is what makes Lisp macros so powerful. This sort of runtime operation performed on arbitrary datatypes is called [polytypism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)#Polytypism), or datatype genericity. In #[[Haskell]], several packages provide datatype genericity, of which the following two are notable:
 
